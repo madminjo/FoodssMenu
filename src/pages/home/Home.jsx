@@ -5,6 +5,7 @@ import Partnyr from '../../components/partnyr/Partnyr'
 import Menu from '../../components/menu/Menu'
 import Customer from '../../components/customer/Customer'
 import Started from '../../components/started/Started'
+import Footer from '../../components/footer/Footer'
 
 const Home = () => {
 	return (
@@ -13,9 +14,10 @@ const Home = () => {
 				<Header />
 				<Secrion />
 				<Partnyr />
-				{/* <Menu /> */}
+				<Menu />
 				<Customer />
 				<Started />
+				<Footer />
 			</div>
 		</div>
 	)

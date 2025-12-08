@@ -13,6 +13,7 @@ const App = () => {
 			<Routes>
 				<Route path='/' element={<Home />} />
 				<Route path='/basket' element={<Basket />} />
+				<Route path='/menu' element={<Home />} />
 			</Routes>
 		</AppContext.Provider>
 	)
